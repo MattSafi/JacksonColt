@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Colt Homepage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/Name-logo.png" alt="JacksonColt" class="HeaderImage">
+            
+        </div>
+
+      
+
+    </header>
+    <nav class="navbar">
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- Unicode for the three-line hamburger icon -->
+        </div>
+        <ul class="nav-menu" id="navMenu">
+        <li><a href="#homePage" onclick="showTab(event, 'homePage')">-Home Page-</a></li>
+        <li><a href="#aboutUs" onclick="showTab(event, 'aboutUs')">-About The Band-</a></li>
+        <li><a href="#gallery" onclick="showTab(event, 'gallery')">-Gallery-</a></li>
+        <li><a href="#merch" onclick="showTab(event, 'merch')">-Merch-</a></li>
+        <li><a href="#contactUs" onclick="showTab(event, 'contactUs')">-Contact Us-</a></li>
+        </ul>
+    
+    </nav>
+    
+    <!-- <div class="loginbtn">
+        <a href="login.html">-Login-</a>
+    </div> -->
+    
+
+    <main>
+
+       <div id="homePage" class="tab-content">
+
+        <em><h2>Check out our videos!</h2></em>
+
+        <em><p>Have you seen the music video for our song    
+            Shake Your Body?</p></em>
+        
+
+        <div class="videoContainer">
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N3NafJh5Y54?si=7209Muu_piFp1DOJ" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </div>
+
+        <em><p>Watch us play our song Highway live at Studio31!</p></em>
+
+        <div class="secondContainer">
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lhs9vKqv118?si=z8dhBH3XQWVwIszn" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </div>
+
+       </div>
+
+        <div id="aboutUs" class="tab-content">
+            <h2><em>About Jackson Colt</em></h2>
+            
+            <div class="aboutUsContainer">
+                <p>Jackson Colt is the essence of 80s Rock reimagined. Catchy chorus hooks, 
+                melodic riffs and shredding solos echo through from the Golden Era of the Guitar. 
+                Raised on old school rock, Jackson combines a retro-retake with a modern 
+                fresh sound that booms through the ages for all target markets.</p>
+            <p> After receiving his first guitar at the age of 9 in a second-hand store, 
+                Jackson starting learning to play songs by bands such as Creedence Clearwater Revival,
+                The Who, Grand Funk Railroad and more. Jackson cites his family as his biggest influence 
+                on his Classic Rock influenced sound - 
+                Growing up listening to bands like Deep Purple, AC/DC, Def Leppard, and Guns N Roses. </p>
+                    
+                
+            </div>
+        
+            
+
+        </div>
+        <div id="gallery" class="tab-content">
+            <em><h2>Check out our gallery</h2></em>
+            <div class="gallery">
+                <img src="images/Jackson-Colt-Logo.jpg" alt="Band Photo 1">
+                <img src="images/JClogoWhite.jpg" alt="Band Photo 2">
+                <img src="images/JC1.jpg" alt="Band Photo 3">
+                <img src="images/JC2.jpg" alt="Band Photo 4">
+                <img src="images/JC3.jpeg" alt="Band Photo 5">
+                <img src="images/JC4.jpg" alt="Band Photo 6">
+                
+            
+            </div>
+
+        </div>
+        
+        
+        <div id="merch" class="tab-content">
+            <h2>Merchandise</h2>
+            <p>Coming soon!</p>
+        </div>
+        <div id="contactUs" class="tab-content">
+            <h2>Contact Us</h2>
+            <p>Feel free to leave a comment</p>
+
+            <div class="comment-section">
+                <h2>Leave a Comment</h2>
+                <form id="comment-form">
+                  <input type="text" id="name" placeholder="Your name" required>
+                  <textarea id="comment" placeholder="Your comment" required></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+                <div id="comments"></div>
+              </div>
+            <div class="emailBox">
+                <p>You can also send an email to jacksoncoltband@gmail.com or DM us on our socials!</p>
+            </div>
+
+        </div>
+        
+        
+       <footer> 
+        <div class="button-container">
+
+            <p>Make sure to check out our socials :  </p>
+
+             <button class="hover-button button1">
+              <a href="https://open.spotify.com/artist/3gIIWO1zON6oNM0MSWUeJ4" class="hover-button" target="_blank"><img src="images/spotify.svg" alt="spotify"></a>
+            </button>
+            <button class="hover-button button2">
+              <a href="https://www.facebook.com/JacksonColtRock/" class="hover-button" target="_blank"><img src="images/facebook-logo.png" alt="facebook"></a>
+            </button>
+           
+             <button class="hover-button button3">
+            <a href="https://www.instagram.com/jacksoncoltrock/" class="hover-button" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+            </button>
+            <button class="hover-button button4">
+                <a href="https://linktr.ee/jacksoncoltrock" class="hover-button" target="_blank"><img src="images/linktree.png" alt="linktree"></a>
+                </button>
+            <button class="hover-button button4">
+                    <a href="https://www.youtube.com/@JacksonColt" class="hover-button" target="_blank"><img src="images/Youtube_logo.png" alt="youtube"></a>
+                    </button>
+            
+            
+            
+          </div>
+          <p>&copy; 2024 JacksonColt. All rights reserved</p>
+        </footer>
+
+    </main>
+    <script src="function.js"></script>
+</body>
+</html>
